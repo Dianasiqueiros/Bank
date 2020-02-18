@@ -1,7 +1,7 @@
 public class DebitCard extends Card{
     private double minAmount;
 
-    public DebitCard(String type, String clientName, short expirationMonth, short expirationYear, double minAmount) {
+    public DebitCard(CardType type, String clientName, short expirationMonth, short expirationYear, double minAmount) {
         super(type, clientName, expirationMonth, expirationYear);
         this.minAmount = minAmount;
     }

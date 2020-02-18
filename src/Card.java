@@ -1,21 +1,21 @@
 public class Card {
-    private String type;
+    private CardType type;
     private String clientName;
     private short expirationMonth;
     private short  expirationYear;
 
-    public Card(String type, String clientName, short expirationMonth, short expirationYear) {
+    public Card(CardType type, String clientName, short expirationMonth, short expirationYear) {
         this.type = type;
         this.clientName = clientName;
         this.expirationMonth=expirationMonth;
         this.expirationYear=expirationYear;
     }
 
-    public String getType() {
+    public CardType getType() {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(CardType type) {
         this.type = type;
     }
 

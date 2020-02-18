@@ -1,7 +1,7 @@
 public class CreditCard extends Card {
     private double maxAmount;
 
-    public CreditCard(String type, String clientName, short expirationMonth, short expirationYear, double maxAmount) {
+    public CreditCard(CardType type, String clientName, short expirationMonth, short expirationYear, double maxAmount) {
         super(type, clientName, expirationMonth, expirationYear);
         this.maxAmount = maxAmount;
     }
